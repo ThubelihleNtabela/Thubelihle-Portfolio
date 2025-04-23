@@ -65,3 +65,31 @@ h1 span {
   margin-right: 10px;
   color: #1abc9c;
 }
+footer {
+  background: #1abc9c;
+  color: white;
+  padding: 1.5rem 0;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+footer a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.3rem;
+  transition: opacity 0.3s ease;
+}
+
+footer a:hover {
+  opacity: 0.75;
+}
+
+footer p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
